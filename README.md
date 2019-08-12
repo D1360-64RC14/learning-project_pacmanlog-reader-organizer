@@ -22,7 +22,7 @@ print(jsonlist)
 {
     "installed": [
         {
-            "Date": "YYY-MM-DD HH:MM",
+            "Date": "YYYY-MM-DD HH:MM",
             "Action": "installed / upgraded / removed",
             "Package": "name",
             "Version": "1.0"
@@ -30,7 +30,7 @@ print(jsonlist)
     ],
     "upgraded": [
         {
-            "Date": "YYY-MM-DD HH:MM",
+            "Date": "YYYY-MM-DD HH:MM",
             "Action": "installed / upgraded / removed",
             "Package": "name",
             "Version": {
@@ -41,7 +41,7 @@ print(jsonlist)
     ],
     "removed": [
         {
-            "Date": "YYY-MM-DD HH:MM",
+            "Date": "YYYY-MM-DD HH:MM",
             "Action": "installed / upgraded / removed",
             "Package": "name",
             "Version": "1.0"
