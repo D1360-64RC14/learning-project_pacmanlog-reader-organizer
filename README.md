@@ -2,7 +2,7 @@
 
 ## What ~~the fuk~~ is this?
 
-Basically, this a python script that takes /var/log/pacman.log and filters the data to show installed, upgraded and removed packages in a json.
+Basically, this is a python script that takes /var/log/pacman.log and filters the data to show installed, upgraded and removed packages in a json.
 
 ## [Organize.py](./Organize.py)
 
