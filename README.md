@@ -19,36 +19,44 @@ print(jsonlist)
 
 ```json
             "JSON output example"
-{
-    "installed": [
-        {
-            "Date": "YYYY-MM-DD HH:MM",
-            "Action": "installed / upgraded / removed",
-            "Package": "name",
-            "Version": "1.0"
-        }
-    ],
-    "upgraded": [
-        {
-            "Date": "YYYY-MM-DD HH:MM",
-            "Action": "installed / upgraded / removed",
-            "Package": "name",
-            "Version": {
-                "older": "1.0",
-                "newer": "2.0"
-            }
-        }
-    ],
-    "removed": [
-        {
-            "Date": "YYYY-MM-DD HH:MM",
-            "Action": "installed / upgraded / removed",
-            "Package": "name",
-            "Version": "1.0"
-        }
-    ],
-    "full": [ "All the above information in a list" ]
-}
+[
+    {
+        "installed": [
+            [
+                {
+                    "Date": "YYYY-MM-DD HH:MM",
+                    "Action": "installed / upgraded / removed",
+                    "Package": "name",
+                    "Version": "1.0"
+                }
+            ]
+        ],
+        "upgraded": [
+            [
+                {
+                    "Date": "YYYY-MM-DD HH:MM",
+                    "Action": "installed / upgraded / removed",
+                    "Package": "name",
+                    "Version": {
+                        "older": "1.0",
+                        "newer": "2.0"
+                    }
+                }
+            ]
+        ],
+        "removed": [
+            [
+                {
+                    "Date": "YYYY-MM-DD HH:MM",
+                    "Action": "installed / upgraded / removed",
+                    "Package": "name",
+                    "Version": "1.0"
+                }
+            ]
+        ],
+        "full": [ "All the above information in a list" ]
+    }
+]
 ```
 
 ## [main.py](./main.py)
